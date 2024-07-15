@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 app.use(cors()); // Add this line to enable CORS
 app.use(express.json()); // To parse JSON bodies
 app.use(cors({
-   origin: 'http://localhost:4000'  //to be changed later to vercel url
+   origin: 'https://weatherandredisfrontend.vercel.app'  //to be changed later to vercel url
  }));
 
 
